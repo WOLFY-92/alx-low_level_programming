@@ -1,32 +1,29 @@
-Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
-(A nested loop is a loop inside the body of another loop)
+# More functions, more nested loops
 
-Note: The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h ~ You have to start by creating your main.h first.
-main.h file is the header file containing all the function prototypes used in this project.
-File: 0-isupper.c is a function that checks for uppercase character.
+Project done during **Full Stack Software Engineering studies** at **ALX School**. It aims to learn about nested loops in **C language**.
 
-File: 1-isdigit.c is a function that checks for a digit (0 through 9).
+## Technologies
+* C files are compiled using `gcc 4.8.4`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 14.04 LTS
 
-File: 2-mul.c is a function that multiplies two integers.
+## Files
+All of the following files are programs written in C:
 
-File 3-print_numbers.c is a function that prints the numbers, from 0 to 9, followed by a new line.
+| Filename      | Description |
+| --------      | ----------- |
+| `0-isupper.c` | Checs for uppercase character |
+| `1-isdigit.c` | Checks for a digit (`0` through `9`) |
+| `2-mul.c` | Multiplies two integers |
+| `3-print_numbers.c` | Prints the numbers, from `0` to `9` |
+| `4-print_most_numbers.c` | Prints the numbers, from `0` to `9`, except `2` and `4` |
+| `5-more_numbers.c` | Prints 10 times the numbers, from `0` to `14` |
+| `6-print_line.c` | Draws a straight line in the terminal |
+| `7-print_diagonal.c` | Draws a diagonal line in the terminal |
+| `8-print_square.c` | Prints a sqaure |
+| `9-fizz_buzz.c` | Prints Fizz-Buzz test |
+| `10-print_triangle.c` | Prints a triangle |
+| `100-prime_factor.c` | Finds and prints the largest prime factor of the number `612852475143` |
+| `101-print_number.c` | Prints an integer |
 
-File 4-print_most_numbers.c is a function that prints the numbers, from 0 to 9, followed by a new line.
 
-File 5-more_numbers.c is a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
-
-File 6-print_line.c is a function that draws a straight line in the terminal.
-
-File 7-print_diagonal.c is a function that draws a diagonal line on the terminal.
-
-File 8-print_square.c is a function that prints a square, followed by a new line.
-
-File 9-fizz_buzz.c is a program that prints the numbers from 1 to 100, followed by a new line, but for multiples of three prints Fizz instead of the number and for the multiples of five prints Buzz.
-
-File 10-print_triangle.c is a function that prints a triangle, followed by a new line.
-
-File 100-prime_factor.c is a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
-
-File 101-print_number.c is a function that prints an integer using only _putchar().
-
-File _putchar.c contains the _putchar() function definition.
